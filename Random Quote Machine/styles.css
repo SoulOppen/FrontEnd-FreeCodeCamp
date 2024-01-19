@@ -1,0 +1,27 @@
+:root{
+    --color:#FFB6C1;
+}
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--color);
+    min-height: 100vh;
+}
+.btn-color{
+    color:white;
+    background-color:var(--color)
+}
+#text,#author{
+    color:var(--color)
+}
+#text::after{
+    content: '"';
+}
+#text::before{
+    content: '"';
+}
+#author::before{
+    content: "-";
+}
