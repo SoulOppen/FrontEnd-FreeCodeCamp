@@ -1,0 +1,27 @@
+:root{
+    --color-1:skyblue;
+  }
+  *{
+    box-sizing: border-box;
+  }
+  body{
+    background-color: var(--color-1);
+  }
+  #drum-machine{
+    color:var(--color-1);
+    background-color: blue;
+    min-height: 50vh;
+    padding: 2.5%;
+  }
+  .drum-pad{
+    display: block;
+    text-align: center;
+    padding: 3%;
+    background-color: red; 
+    width: 8%;
+    margin-bottom: 2%;
+    flex-wrap: wrap;
+  }
+  p{
+    margin:0; 
+  }
